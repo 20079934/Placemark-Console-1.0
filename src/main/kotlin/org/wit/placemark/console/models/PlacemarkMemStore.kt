@@ -1,6 +1,6 @@
 package org.wit.placemark.console.models
 
-import mu.KotlinLogging
+/*import mu.KotlinLogging
 
 private val logger = KotlinLogging.logger {}
 var lastId = 0L
@@ -40,3 +40,6 @@ class PlacemarkMemStore : PlacemarkStore {
         placemarks.forEach { logger.info("${it}") }
     }
 }
+
+ */
+

@@ -1,13 +1,13 @@
 package org.wit.placemark.console.controllers
 
 import mu.KotlinLogging
-import org.wit.placemark.console.models.PlacemarkMemStore
+import org.wit.placemark.console.models.PlacemarkJSONStore
 import org.wit.placemark.console.models.PlacemarkModel
 import org.wit.placemark.console.views.PlacemarkView
 
 class PlacemarkController {
 
-    val placemarks = PlacemarkMemStore()
+    val placemarks = PlacemarkJSONStore()
     val placemarkView = PlacemarkView()
     val logger = KotlinLogging.logger {}
 
